@@ -19,6 +19,7 @@ ipykernel = "*"
 plotly = "*"
 plotly-express = "*"
 nbformat = "*"
+"plotly.express" = "*"
 
 [dev-packages]
 
