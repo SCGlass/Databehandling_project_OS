@@ -3,11 +3,18 @@ import os
 from dash.dependencies import Output, Input
 import plotly_express as px
 import pandas as pd
-from layout import Layout
 import dash_bootstrap_components as dbc
+from dash import html
+from layout import Layout
 
 
+app = dash.Dash(
+    __name__,
+    external_stylesheets=[dbc.themes.MATERIA],
+    meta_tags=[dict(name="viewport", content="width=device-width, initial-scale=1.0")],
+)
 
+app.layout = Layout().layout()
 
 
 
