@@ -1,7 +1,5 @@
-from dash import Dash, html, dcc
-import plotly.express as px
 import pandas as pd
-import os
+import plotly_express as px
 
 df = pd.read_csv("Data/athlete_events.csv")
 
@@ -19,26 +17,5 @@ medal_counts.sort_values(by = "Gold", ascending=False).head(20)
 
 top_10 = medal_counts.sort_values(by = "Gold", ascending=False).head(10)
 
-
-app = Dash(__name__)
-
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
-
-fig = px.bar(top_10, barmode="group")
-
-app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
-
-    html.Div(children='''
-        Dash: A web application framework for your data.
-    '''),
-
-    dcc.Graph(
-        id='example-graph',
-        figure=fig
-    )
-])
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
+fig = px.bar(top_10)
+fig.show()
