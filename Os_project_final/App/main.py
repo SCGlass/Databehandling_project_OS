@@ -6,6 +6,7 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 from dash import html
 from layout import Layout
+from graphs import Graphs
 
 
 app = dash.Dash(
@@ -15,6 +16,10 @@ app = dash.Dash(
 )
 
 app.layout = Layout().layout()
+
+
+
+
 
 
 
