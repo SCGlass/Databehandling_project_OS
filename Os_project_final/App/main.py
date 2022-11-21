@@ -20,12 +20,8 @@ app.layout = Layout().layout()
 
 
 
-@app.callback(Output("graph", "figure"), Input("GB_dropdown", "value"))
-def update_left_graph(option):
-    if option == "top_ten_medals":
-        return Graphs().top_10_medals()
-    elif option == "sport_statistics":
-        return Graphs().sport_statistics()
+
+
 
 
 

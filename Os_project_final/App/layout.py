@@ -6,15 +6,11 @@ class Layout:
     def __init__(self) -> None:
 
         self.GB_stats = [
-            {"label":"graph1", "value":"graph2" },{"label":"graph3", "value":"graph4" } ]
+            {"label":"graph1", "value":"graph2" },{"label":"graph2", "value":"graph4" } ]
         
         self.world_stats = [
             {"label": "Top Ten medals", "value": "graph_2"}
         ]
-    GB_dropdown_option = [
-    {"label": "medals", "value": "medals"},
-    {"label": "statistics", "value": "sport_statistics"},
-]
 
     def layout(self):
         return dbc.Container([
@@ -32,7 +28,7 @@ class Layout:
 
         html.Div([
             dcc.Dropdown(
-                id='top_ten_medals',
+                id='medals',
                 options = self.world_stats,
                 
 
@@ -42,6 +38,8 @@ class Layout:
     ]),
 
     dcc.Graph(id='graph'),
+
+    
 
         ])
     
