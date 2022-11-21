@@ -6,10 +6,10 @@ class Layout:
     def layout(self):
         return dbc.Container(
             [
-                dbc.Card(
-                    dbc.CardBody
+                dbc.Card
+                    (dbc.CardBody
                         ((html.H1("Olympic Games Dashboard")),
-                        (html.Img(src="assets/olympic-logo.png"))), className="rounded float-right")
+                        html.Img(src="assets/olympic-logo.png"), className="rounded float-right"))
                         
                         
                         ]
