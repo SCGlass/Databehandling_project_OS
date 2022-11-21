@@ -16,15 +16,13 @@ class Layout:
             {"label": "Distribution of Winners in Ice Hockey", "value":"hockey"}
         ]
 
-    World_dropdown_option = [
-        {"label": "Top Ten medal count", "value": "top_ten_medals"},
-        {"label": "Art distribution", "value": "art_dist"},
-        {"label": "Ice Hockey distribution", "value": "ice_hockey"}
-    ]
+    
     
     
     def layout(self):
+        
         return dbc.Container([
+            
             html.Div(children=[
             html.H1(children='Olympic Dashboard statistics'),
 
@@ -48,7 +46,9 @@ class Layout:
         ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
     ]),
 
-    dcc.Graph(id='graph'),
+    dcc.Graph(id='graph')
+
+
 
     
 
