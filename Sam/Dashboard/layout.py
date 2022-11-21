@@ -4,13 +4,29 @@ import dash_bootstrap_components as dbc
 
 class Layout:
     def layout(self):
-        return dbc.Container(
-            [
-                dbc.Card
-                    (dbc.CardBody
-                        ((html.H1("Olympic Games Dashboard")),
-                        html.Img(src="assets/olympic-logo.png"), className="rounded float-right"))
-                        
-                        
-                        ]
-                    )
+        return dbc.Container([
+            html.Div(children=[
+        html.H1(children='Statistics about athletes from the Olympics'),
+
+        html.Div([
+            dcc.Dropdown(
+                
+            ),
+          
+        ], style={'width': '48%', 'display': 'inline-block'}),
+
+        html.Div([
+            dcc.Dropdown(
+                
+            ),
+            dcc.RadioItems(
+             
+            )
+        ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
+    ]),
+
+    dcc.Graph(id='indicator-graphic'),
+
+   
+])
+       
