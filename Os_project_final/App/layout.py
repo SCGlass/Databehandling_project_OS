@@ -6,12 +6,23 @@ class Layout:
     def __init__(self) -> None:
 
         self.GB_stats = [
-            {"label":"graph1", "value":"graph2" },{"label":"graph2", "value":"graph4" } ]
+            {"label":"Sports Great Britain won the most medals in", "value":"medals" },
+            {"label":"Amount of medals won per Olympic Games", "value":"medals_os" },
+            {"label": "Age distribution of Athletes representing Great Britain", "value":"age"}]
         
         self.world_stats = [
-            {"label": "Top Ten medals", "value": "graph_2"}
+            {"label": "Top Highest Ten countries medal count", "value": "top_ten"},
+            {"label": "Distribution of Winners in Art competitions", "value":"art_comp"},
+            {"label": "Distribution of Winners in Ice Hockey", "value":"hockey"}
         ]
 
+    World_dropdown_option = [
+        {"label": "Top Ten medal count", "value": "top_ten_medals"},
+        {"label": "Art distribution", "value": "art_dist"},
+        {"label": "Ice Hockey distribution", "value": "ice_hockey"}
+    ]
+    
+    
     def layout(self):
         return dbc.Container([
             html.Div(children=[
@@ -28,7 +39,7 @@ class Layout:
 
         html.Div([
             dcc.Dropdown(
-                id='medals',
+                id='World_dropdown',
                 options = self.world_stats,
                 
 
