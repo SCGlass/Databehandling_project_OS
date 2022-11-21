@@ -5,28 +5,44 @@ import dash_bootstrap_components as dbc
 class Layout:
     def layout(self):
         return dbc.Container([
-            html.Div(children=[
-        html.H1(children='Statistics about athletes from the Olympics'),
+             html.Div([
 
         html.Div([
             dcc.Dropdown(
                 
+                id=''
             ),
-          
+           
         ], style={'width': '48%', 'display': 'inline-block'}),
 
         html.Div([
             dcc.Dropdown(
                 
+                id=''
             ),
-            dcc.RadioItems(
-             
-            )
+          
         ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
     ]),
 
     dcc.Graph(id='indicator-graphic'),
 
-   
-])
-       
+        ])
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+        
