@@ -1,3 +1,4 @@
+Country, ISO2, ISO3, Numeric
 Afghanistan,AF,AFG,4
 Albania,AL,ALB,8
 Algeria,DZ,DZA,12
@@ -53,10 +54,10 @@ Cook Islands (the),CK,COK,184
 Costa Rica,CR,CRI,188
 Croatia,HR,HRV,191
 Cuba,CU,CUB,192
-Curaçao,CW,CUW,531
+Curaï¿½ao,CW,CUW,531
 Cyprus,CY,CYP,196
 Czechia,CZ,CZE,203
-Côte d'Ivoire,CI,CIV,384
+Cï¿½te d'Ivoire,CI,CIV,384
 Denmark,DK,DNK,208
 Djibouti,DJ,DJI,262
 Dominica,DM,DMA,212
@@ -181,8 +182,8 @@ Republic of North Macedonia,MK,MKD,807
 Romania,RO,ROU,642
 Russian Federation (the),RU,RUS,643
 Rwanda,RW,RWA,646
-Réunion,RE,REU,638
-Saint Barthélemy,BL,BLM,652
+Rï¿½union,RE,REU,638
+Saint Barthï¿½lemy,BL,BLM,652
 "Saint Helena, Ascension and Tristan da Cunha",SH,SHN,654
 Saint Kitts and Nevis,KN,KNA,659
 Saint Lucia,LC,LCA,662
@@ -246,4 +247,4 @@ Western Sahara,EH,ESH,732
 Yemen,YE,YEM,887
 Zambia,ZM,ZMB,894
 Zimbabwe,ZW,ZWE,716
-Åland Islands,AX,ALA,248
+ï¿½land Islands,AX,ALA,248
