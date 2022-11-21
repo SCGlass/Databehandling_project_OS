@@ -1,0 +1,250 @@
+,Country,ISO 3166-1 alpha2,ISO 3166-1 alpha3,ISO 3166-1 numeric,IOC,Fips 10,License Plate,Domain
+0,Afghanistan,AF,AFG,4.0,AFG,AF,AFG,.af
+1,Åland Islands,AX,ALA,248.0,,,AX,.ax
+2,Albania,AL,ALB,8.0,ALB,AL,AL,.al
+3,Algeria,DZ,DZA,12.0,ALG,AG,DZ,.dz
+4,American Samoa,AS,ASM,16.0,ASA,AQ,USA,.as
+5,Andorra,AD,AND,20.0,AND,AN,AND,.ad
+6,Angola,AO,AGO,24.0,ANG,AO,ANG,.ao
+7,Anguilla,AI,AIA,660.0,,AV,AXA,.ai
+8,Antarctica,AQ,ATA,10.0,,AY,,.aq
+9,Antigua and Barbuda,AG,ATG,28.0,ANT,AC,AG,.ag
+10,Argentina,AR,ARG,32.0,ARG,AR,RA,.ar
+11,Armenia,AM,ARM,51.0,ARM,AM,AM,.am
+12,Aruba,AW,ABW,533.0,ARU,AA,ARU,.aw
+13,Australia,AU,AUS,36.0,AUS,AS,AUS,.au
+14,Austria,AT,AUT,40.0,AUT,AU,A,.at
+15,Azerbaijan,AZ,AZE,31.0,AZE,AJ,AZ,.az
+16,Bahamas,BS,BHS,44.0,BAH,BF,BS,.bs
+17,Bahrain,BH,BHR,48.0,BRN,BA,BRN,.bh
+18,Bangladesh,BD,BGD,50.0,BAN,BG,BD,.bd
+19,Barbados,BB,BRB,52.0,BAR,BB,BDS,.bb
+20,Belarus,BY,BLR,112.0,BLR,BO,BY,.by
+21,Belgium,BE,BEL,56.0,BEL,BE,B,.be
+22,Belize,BZ,BLZ,84.0,BIZ,BH,BZ,.bz
+23,Benin,BJ,BEN,204.0,BEN,BN,BJ,.bj
+24,Bermuda,BM,BMU,60.0,BER,BD,,.bm
+25,Bhutan,BT,BTN,64.0,BHU,BT,BHT,.bt
+26,Bolivia,BO,BOL,68.0,BOL,BL,BOL,.bo
+27,"Bonaire, Saint Eustatius and Saba",BQ,BES,535.0,,,NL,.bq
+28,Bosnia and Herzegovina,BA,BIH,70.0,BIH,BK,BIH,.ba
+29,Botswana,BW,BWA,72.0,BOT,BC,RB,.bw
+30,Bouvet Island,BV,BVT,74.0,,BV,,.bv
+31,Brazil,BR,BRA,76.0,BRA,BR,BR,.br
+32,British Indian Ocean Territory,IO,IOT,86.0,,IO,,.io
+33,British Virgin Islands,VG,VGB,92.0,IVB,VI,VG,.vg
+34,Brunei,BN,BRN,96.0,BRU,BX,BRU,.bn
+35,Bulgaria,BG,BGR,100.0,BUL,BU,BG,.bg
+36,Burkina Faso,BF,BFA,854.0,BUR,UV,BF,.bf
+37,Burma,MM,MMR,104.0,MYA,BM,MYA,.mm
+38,Burundi,BI,BDI,108.0,BDI,BY,RU,.bi
+39,Cambodia,KH,KHM,116.0,CAM,CB,K,.kh
+40,Cameroon,CM,CMR,120.0,CMR,CM,CAM,.cm
+41,Canada,CA,CAN,124.0,CAN,CA,CDN,.ca
+42,Cape Verde,CV,CPV,132.0,CPV,CV,CV,.cv
+43,Cayman Islands,KY,CYM,136.0,CAY,CJ,,.ky
+44,Central African Republic,CF,CAF,140.0,CAF,CT,RCA,.cf
+45,Chad,TD,TCD,148.0,CHA,CD,TD,.td
+46,Chile,CL,CHL,152.0,CHI,CI,RCH,.cl
+47,China,CN,CHN,156.0,CHN,CH,CHN,.cn
+48,Christmas Island,CX,CXR,162.0,,KT,,.cx
+49,Cocos (Keeling) Islands,CC,CCK,166.0,,CK,,.cc
+50,Colombia,CO,COL,170.0,COL,CO,CO,.co
+51,Comoros,KM,COM,174.0,COM,CN,COM,.km
+52,Cook Islands,CK,COK,184.0,COK,CW,,.ck
+53,Costa Rica,CR,CRI,188.0,CRC,CS,CR,.cr
+54,Croatia,HR,HRV,191.0,CRO,HR,HR,.hr
+55,Cuba,CU,CUB,192.0,CUB,CU,C,.cu
+56,Curacao,CW,CUW,531.0,,UC,,.cw
+57,Cyprus,CY,CYP,196.0,CYP,CY,CY,.cy
+58,Czechia,CZ,CZE,203.0,CZE,EZ,CZ,.cz
+59,Democratic Republic of the Congo,CD,COD,180.0,COD,CG,CGO,.cd
+60,Denmark,DK,DNK,208.0,DEN,DA,DK,.dk
+61,Djibouti,DJ,DJI,262.0,DJI,DJ,DJI,.dj
+62,Dominica,DM,DMA,212.0,DMA,DO,WD,.dm
+63,Dominican Republic,DO,DOM,214.0,DOM,DR,DOM,.do
+64,East Timor,TL,TLS,626.0,TLS,TT,TL,.tl
+65,Ecuador,EC,ECU,218.0,ECU,EC,EC,.ec
+66,Egypt,EG,EGY,818.0,EGY,EG,ET,.eg
+67,El Salvador,SV,SLV,222.0,ESA,ES,ES,.sv
+68,Equatorial Guinea,GQ,GNQ,226.0,GEQ,EK,GQ,.gq
+69,Eritrea,ER,ERI,232.0,ERI,ER,ER,.er
+70,Estonia,EE,EST,233.0,EST,EN,EST,.ee
+71,Eswatini,SZ,SWZ,748.0,SWZ,WZ,SD,.sz
+72,Ethiopia,ET,ETH,231.0,ETH,ET,ETH,.et
+73,Falkland Islands,FK,FLK,238.0,,FK,,.fk
+74,Faroe Islands,FO,FRO,234.0,,FO,FO,.fo
+75,Federated States of Micronesia,FM,FSM,583.0,FSM,FM,FSM,.fm
+76,Fiji,FJ,FJI,242.0,FIJ,FJ,FJI,.fj
+77,Finland,FI,FIN,246.0,FIN,FI,FIN,.fi
+78,France,FR,FRA,250.0,FRA,FR,F,.fr
+79,French Guiana,GF,GUF,254.0,,FG,,.gf
+80,French Polynesia,PF,PYF,258.0,,FP,,.pf
+81,French Southern and Antarctic Lands,TF,ATF,260.0,,FS,,.tf
+82,Gabon,GA,GAB,266.0,GAB,GB,G,.ga
+83,Gambia,GM,GMB,270.0,GAM,GA,WAG,.gm
+84,Georgia,GE,GEO,268.0,GEO,GG,GE,.ge
+85,Germany,DE,DEU,276.0,GER,GM,D,.de
+86,Ghana,GH,GHA,288.0,GHA,GH,GH,.gh
+87,Gibraltar,GI,GIB,292.0,,GI,GBZ,.gi
+88,Greece,GR,GRC,300.0,GRE,GR,GR,.gr
+89,Greenland,GL,GRL,304.0,,GL,KN,.gl
+90,Grenada,GD,GRD,308.0,GRN,GJ,WG,.gd
+91,Guadeloupe,GP,GLP,312.0,,GP,,.gp
+92,Guam,GU,GUM,316.0,GUM,GQ,,.gu
+93,Guatemala,GT,GTM,320.0,GUA,GT,GCA,.gt
+94,Guernsey,GG,GGY,831.0,,GK,GBG,.gg
+95,Guinea,GN,GIN,324.0,GUI,GV,RG,.gn
+96,Guinea-Bissau,GW,GNB,624.0,GBS,PU,GUB,.gw
+97,Guyana,GY,GUY,328.0,GUY,GY,GUY,.gy
+98,Haiti,HT,HTI,332.0,HAI,HA,RH,.ht
+99,Heard Island and McDonald Islands,HM,HMD,334.0,,HM,,.hm
+100,Honduras,HN,HND,340.0,HON,HO,HN,.hn
+101,Hong Kong,HK,HKG,344.0,HKG,HK,HK,.hk
+102,Hungary,HU,HUN,348.0,HUN,HU,H,.hu
+103,Iceland,IS,ISL,352.0,ISL,IC,IS,.is
+104,India,IN,IND,356.0,IND,IN,IND,.in
+105,Indonesia,ID,IDN,360.0,INA,ID,RI,.id
+106,Iran,IR,IRN,364.0,IRI,IR,IR,.ir
+107,Iraq,IQ,IRQ,368.0,IRQ,IZ,IRQ,.iq
+108,Ireland,IE,IRL,372.0,IRL,EI,IRL,.ie
+109,Isle of Man,IM,IMN,833.0,,,,.im
+110,Israel,IL,ISR,376.0,ISR,IS,IL,.il
+111,Italy,IT,ITA,380.0,ITA,IT,I,.it
+112,Ivory Coast,CI,CIV,384.0,CIV,IV,CI,.ci
+113,Jamaica,JM,JAM,388.0,JAM,JM,JA,.jm
+114,Japan,JP,JPN,392.0,JPN,JA,J,.jp
+115,Jersey,JE,JEY,832.0,,JE,GBJ,.je
+116,Jordan,JO,JOR,400.0,JOR,JO,JOR,.jo
+117,Kazakhstan,KZ,KAZ,398.0,KAZ,KZ,KZ,.kz
+118,Kenya,KE,KEN,404.0,KEN,KE,EAK,.ke
+119,Kiribati,KI,KIR,296.0,KIR,KR,KIR,.ki
+120,Kosovo,XK,XKX,,KOS,KV,RKS,.ko
+121,Kuwait,KW,KWT,414.0,KUW,KU,KWT,.kw
+122,Kyrgyzstan,KG,KGZ,417.0,KGZ,KG,KS,.kg
+123,Laos,LA,LAO,418.0,LAO,LA,LAO,.la
+124,Latvia,LV,LVA,428.0,LAT,LG,LV,.lv
+125,Lebanon,LB,LBN,422.0,LBN,LE,RL,.lb
+126,Lesotho,LS,LSO,426.0,LES,LT,LS,.ls
+127,Liberia,LR,LBR,430.0,LBR,LI,LB,.lr
+128,Libya,LY,LBY,434.0,LBA,LY,LAR,.ly
+129,Liechtenstein,LI,LIE,438.0,LIE,LS,FL,.li
+130,Lithuania,LT,LTU,440.0,LTU,LH,LT,.lt
+131,Luxembourg,LU,LUX,442.0,LUX,LU,L,.lu
+132,Macao,MO,MAC,446.0,,MC,,.mo
+133,Madagascar,MG,MDG,450.0,MAD,MA,RM,.mg
+134,Malawi,MW,MWI,454.0,MAW,MI,MW,.mw
+135,Malaysia,MY,MYS,458.0,MAS,MY,MAL,.my
+136,Maldives,MV,MDV,462.0,MDV,MV,MV,.mv
+137,Mali,ML,MLI,466.0,MLI,ML,RMM,.ml
+138,Malta,MT,MLT,470.0,MLT,MT,M,.mt
+139,Marshall Islands,MH,MHL,584.0,MHL,RM,MH,.mh
+140,Martinique,MQ,MTQ,474.0,,MB,,.mq
+141,Mauritania,MR,MRT,478.0,MTN,MR,RIM,.mr
+142,Mauritius,MU,MUS,480.0,MRI,MP,MS,.mu
+143,Mayotte,YT,MYT,175.0,,MF,,.yt
+144,Mexico,MX,MEX,484.0,MEX,MX,MEX,.mx
+145,Moldova,MD,MDA,498.0,MDA,MD,MD,.md
+146,Mongolia,MN,MNG,496.0,MGL,MG,MGL,.mn
+147,Montenegro,ME,MNE,499.0,MNE,MJ,MNE,.me
+148,Montserrat,MS,MSR,500.0,,MH,,.ms
+149,Morocco,MA,MAR,504.0,MAR,MO,MA,.ma
+150,Mozambique,MZ,MOZ,508.0,MOZ,MZ,MOC,.mz
+151,Namibia,,NAM,516.0,NAM,WA,NAM,.na
+152,Nauru,NR,NRU,520.0,NRU,NR,NAU,.nr
+153,Nepal,NP,NPL,524.0,NEP,NP,NEP,.np
+154,Netherlands,NL,NLD,528.0,NED,NL,NL,.nl
+155,New Caledonia,NC,NCL,540.0,,NC,NCL,.nc
+156,New Zealand,NZ,NZL,554.0,NZL,NZ,NZ,.nz
+157,Nicaragua,NI,NIC,558.0,NCA,NU,NIC,.ni
+158,Niger,NE,NER,562.0,NIG,NG,RN,.ne
+159,Nigeria,NG,NGA,566.0,NGR,NI,NGR,.ng
+160,Niue,NU,NIU,570.0,,NE,,.nu
+161,Norfolk Island,NF,NFK,574.0,,NF,,.nf
+162,North Korea,KP,PRK,408.0,PRK,KN,KP,.kp
+163,North Macedonia,MK,MKD,807.0,MKD,MK,MK,.mk
+164,Northern Mariana Islands,MP,MNP,580.0,,CQ,,.mp
+165,Norway,NO,NOR,578.0,NOR,NO,N,.no
+166,Oman,OM,OMN,512.0,OMA,MU,OM,.om
+167,Pakistan,PK,PAK,586.0,PAK,PK,PK,.pk
+168,Palau,PW,PLW,585.0,PLW,PS,PAL,.pw
+169,Palestine,PS,PSE,275.0,PLE,WE,WB,.ps
+170,Panama,PA,PAN,591.0,PAN,PM,PA,.pa
+171,Papua New Guinea,PG,PNG,598.0,PNG,PP,PNG,.pg
+172,Paraguay,PY,PRY,600.0,PAR,PA,PY,.py
+173,Peru,PE,PER,604.0,PER,PE,PE,.pe
+174,Philippines,PH,PHL,608.0,PHI,RP,RP,.ph
+175,Pitcairn Islands,PN,PCN,612.0,,PC,,.pn
+176,Poland,PL,POL,616.0,POL,PL,PL,.pl
+177,Portugal,PT,PRT,620.0,POR,PO,P,.pt
+178,Principality of Monaco,MC,MCO,492.0,MON,MN,MC,.mc
+179,Puerto Rico,PR,PRI,630.0,PUR,RQ,PRI,.pr
+180,Qatar,QA,QAT,634.0,QAT,QA,Q,.qa
+181,Republic of the Congo,CG,COG,178.0,CGO,CF,RCB,.cg
+182,Reunion,RE,REU,638.0,,RE,,.re
+183,Romania,RO,ROU,642.0,ROU,RO,RO,.ro
+184,Russia,RU,RUS,643.0,RUS,RS,RUS,.ru
+185,Rwanda,RW,RWA,646.0,RWA,RW,RWA,.rw
+186,Saint Barthelemy,BL,BLM,652.0,,TB,,.bl
+187,"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,654.0,,SH,,.sh
+188,Saint Kitts and Nevis,KN,KNA,659.0,SKN,SC,KAN,.kn
+189,Saint Lucia,LC,LCA,662.0,LCA,ST,WL,.lc
+190,Saint Martin,MF,MAF,663.0,,RN,F,.mf
+191,Saint Pierre and Miquelon,PM,SPM,666.0,,SB,,.pm
+192,Saint Vincent and the Grenadines,VC,VCT,670.0,VIN,VC,WV,.vc
+193,Samoa,WS,WSM,882.0,SAM,WS,WS,.ws
+194,San Marino,SM,SMR,674.0,SMR,SM,RSM,.sm
+195,Sao Tome and Principe,ST,STP,678.0,STP,TP,STP,.st
+196,Saudi Arabia,SA,SAU,682.0,KSA,SA,KSA,.sa
+197,Senegal,SN,SEN,686.0,SEN,SG,SN,.sn
+198,Serbia,RS,SRB,688.0,SRB,RI,SRB,.rs
+199,Seychelles,SC,SYC,690.0,SEY,SE,SY,.sc
+200,Sierra Leone,SL,SLE,694.0,SLE,SL,WAL,.sl
+201,Singapore,SG,SGP,702.0,SGP,SN,SGP,.sg
+202,Sint Maarten,SX,SXM,534.0,,NN,,.sx
+203,Slovakia,SK,SVK,703.0,SVK,LO,SK,.sk
+204,Slovenia,SI,SVN,705.0,SLO,SI,SLO,.si
+205,Solomon Islands,SB,SLB,90.0,SOL,BP,SOL,.sb
+206,Somalia,SO,SOM,706.0,SOM,SO,SO,.so
+207,South Africa,ZA,ZAF,710.0,RSA,SF,ZA,.za
+208,South Georgia and South Sandwich Islands,GS,SGS,239.0,,SX,,.gs
+209,South Korea,KR,KOR,410.0,KOR,KS,ROK,.kr
+210,South Sudan,SS,SSD,728.0,,,SSD,.ss
+211,Spain,ES,ESP,724.0,ESP,SP,E,.es
+212,Sri Lanka,LK,LKA,144.0,SRI,CE,CL,.lk
+213,Sudan,SD,SDN,736.0,SUD,SU,SUD,.sd
+214,Suriname,SR,SUR,740.0,SUR,NS,SME,.sr
+215,Svalbard,SJ,SJM,744.0,,SV,,.sj
+216,Sweden,SE,SWE,752.0,SWE,SW,S,.se
+217,Switzerland,CH,CHE,756.0,SUI,SZ,CH,.ch
+218,Syria,SY,SYR,760.0,SYR,SY,SYR,.sy
+219,Taiwan,TW,TWN,158.0,TPE,TW,RC,.tw
+220,Tajikistan,TJ,TJK,762.0,TJK,TI,TJ,.tj
+221,Tanzania,TZ,TZA,834.0,TAN,TZ,EAT,.tz
+222,Thailand,TH,THA,764.0,THA,TH,T,.th
+223,Togo,TG,TGO,768.0,TOG,TO,TG,.tg
+224,Tokelau,TK,TKL,772.0,,TL,,.tk
+225,Tonga,TO,TON,776.0,TGA,TN,TON,.to
+226,Trinidad and Tobago,TT,TTO,780.0,TTO,TD,TT,.tt
+227,Tunisia,TN,TUN,788.0,TUN,TS,TN,.tn
+228,Turkey,TR,TUR,792.0,TUR,TU,TR,.tr
+229,Turkmenistan,TM,TKM,795.0,TKM,TX,TM,.tm
+230,Turks and Caicos Islands,TC,TCA,796.0,,TK,,.tc
+231,Tuvalu,TV,TUV,798.0,TUV,TV,TUV,.tv
+232,Uganda,UG,UGA,800.0,UGA,UG,EAU,.ug
+233,Ukraine,UA,UKR,804.0,UKR,UP,UA,.ua
+234,United Arab Emirates,AE,ARE,784.0,UAE,AE,UAE,.ae
+235,United Kingdom,GB,GBR,826.0,GBR,UK,GBM,.uk
+236,United States,US,USA,840.0,USA,US,USA,.us
+237,Uruguay,UY,URY,858.0,URU,UY,ROU,.uy
+238,Uzbekistan,UZ,UZB,860.0,UZB,UZ,UZ,.uz
+239,Vanuatu,VU,VUT,548.0,VAN,NH,VAN,.vu
+240,Vatican City,VA,VAT,336.0,,VT,V,.va
+241,Venezuela,VE,VEN,862.0,VEN,VE,YV,.ve
+242,Vietnam,VN,VNM,704.0,VIE,VM,VN,.vn
+243,Virgin Islands,VI,VIR,850.0,ISV,VQ,,.vi
+244,Wallis and Futuna,WF,WLF,876.0,,WF,,.wf
+245,Western Sahara,EH,ESH,732.0,,WI,WSA,.eh
+246,Yemen,YE,YEM,887.0,YEM,YM,YEM,.ye
+247,Zambia,ZM,ZMB,894.0,ZAM,ZA,Z,.zm
+248,Zimbabwe,ZW,ZWE,716.0,ZIM,ZI,ZW,.zw
