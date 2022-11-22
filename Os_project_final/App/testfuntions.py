@@ -4,6 +4,6 @@ import plotly_express as px
 import os
 
 # %%
-Graphs().map_medals_Art_Competitions()
+Graphs().top_ten_gb()
 
 # %%

@@ -70,3 +70,43 @@ class Graphs:
                             title="Ice Hockey - medals per country")
         
         return fig
+
+    def top_ten_gb(self):
+        data_folder = os.path.abspath("./Data")
+        data_athletes = os.path.join(data_folder, "athlete_events.csv")
+        df = pd.read_csv(data_athletes)
+        
+        df = df[df["Team"] == "Great Britain"]
+        df= df.loc[df["Medal"].notna(),["Sport","Medal"]]
+        df = df.groupby(["Sport","Medal"]).Medal.count().reset_index(name="Total")
+        df = df.set_index(['Sport', 'Medal']).unstack('Medal', fill_value=0)
+        df.columns = df.columns.droplevel(0) # Dropped the Total index column
+        df = df.rename_axis(None,axis=1)
+        df["Total Medals"] = df.sum(axis=1, numeric_only= True)
+        df = df.reindex(columns=['Bronze','Silver','Gold','Total Medals'])
+        df.sort_values(by="Total Medals",ascending= False,inplace=True)
+        df = df[0:10].reset_index()
+
+        fig = px.bar(df,
+        x="Sport",
+        y=["Bronze","Silver","Gold","Total Medals"],
+        title="Sports that Great Britain has the most medals in",
+        barmode= "group")
+                        
+        return fig
+
+    def gb_years_medal(self):
+        data_folder = os.path.abspath("./Data")
+        data_athletes = os.path.join(data_folder, "athlete_events.csv")
+        df = pd.read_csv(data_athletes)   
+        
+        
+        df_years= df.loc[df["Medal"].notna(),["Games","Medal"]]
+        df_years = df_years.groupby(["Games","Medal"]).Medal.count().reset_index(name="Total")
+        df_years = df_years.set_index(['Games', 'Medal']).unstack('Medal', fill_value=0)
+        df_years.columns = df_years.columns.droplevel(0) # Dropped the Total index column
+        df_years = df_years.rename_axis(None,axis=1)
+        df_years["Total Medals"] = df_years.sum(axis=1, numeric_only= True)
+        df_years = df_years[df_years.columns.reindex(['Bronze','Silver','Gold','Total Medals'])[0]]
+        df_years.sort_values(by="Total Medals",ascending= False, inplace=True)
+        

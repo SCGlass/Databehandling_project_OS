@@ -29,9 +29,10 @@ class Layout:
         html.Div([
             dcc.Dropdown(
                 
-                id='GB_dropdown',
+                
+                id='gb-dropdown',
                 options = self.GB_stats,
-                value = "medals_os"
+                value = "medals"
             ),
            
         ], style={'width': '48%', 'display': 'inline-block'}),
@@ -47,7 +48,9 @@ class Layout:
         ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
     ]),
 
-    dcc.Graph(id='graph')
+    dcc.Graph(id='graph'),
+    dcc.Graph(id='graph-down')
+
 
 
 
