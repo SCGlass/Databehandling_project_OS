@@ -9,9 +9,10 @@ from layout import Layout
 from graphs import Graphs
 
 
+
 app = dash.Dash(
     __name__,
-    external_stylesheets=[dbc.themes.MATERIA],
+    external_stylesheets=[dbc.themes.PULSE],
     meta_tags=[
         dict(name="viewport", content="width=device-width, initial-scale=1.0")],
 )

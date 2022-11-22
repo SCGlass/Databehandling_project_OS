@@ -1,5 +1,6 @@
 from dash import html, dcc
 import dash_bootstrap_components as dbc
+from dash_bootstrap_templates import load_figure_template
 
 
 class Layout:
@@ -18,11 +19,16 @@ class Layout:
         ]
 
     def layout(self):
-
+        load_figure_template('UX')
         return dbc.Container([
 
             html.Div(children=[
                 html.H1(children='Olympic Dashboard statistics'),
+                style={'background-image': 'url(/assets/image.jpg)',
+                        'background-size': '100%',
+                        'position': 'fixed',
+                        'width': '100%',
+                        'height': '100%'}
 
 
                 dcc.Tabs([
