@@ -4,7 +4,7 @@ import os
 
 class Graphs:
 
-    def top_10_medals():
+    def top_10_medals(self):
 
         data_folder = os.path.abspath("./Data")
         data_athletes = os.path.join(data_folder, "athlete_events.csv")
@@ -21,7 +21,7 @@ class Graphs:
         top_10 = medal_counts.sort_values(by = "Gold", ascending=False).head(10)
         return px.bar(top_10, barmode="group")
 
-    def map_medals_Art_Competitions():
+    def map_medals_Art_Competitions(self):
 
         data_folder = os.path.abspath("./Data")
         data_athletes = os.path.join(data_folder, "athlete_events.csv")
@@ -46,7 +46,7 @@ class Graphs:
         
         return fig
 
-    def map_medals_Ice_Hockey():
+    def map_medals_Ice_Hockey(self):
 
         data_folder = os.path.abspath("./Data")
         data_athletes = os.path.join(data_folder, "athlete_events.csv")

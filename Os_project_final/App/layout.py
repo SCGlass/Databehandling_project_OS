@@ -11,9 +11,9 @@ class Layout:
             {"label": "Age distribution of Athletes representing Great Britain", "value":"age"}]
         
         self.world_stats = [
-            {"label": "Top Highest Ten countries medal count", "value": "top_ten"},
+            {"label": "Top Highest Ten countries medal count", "value": "top_ten_medals"},
             {"label": "Distribution of Winners in Art competitions", "value":"art_comp"},
-            {"label": "Distribution of Winners in Ice Hockey", "value":"hockey"}
+            {"label": "Distribution of Winners in Ice Hockey", "value":"ice_hockey"}
         ]
 
     
@@ -30,16 +30,17 @@ class Layout:
             dcc.Dropdown(
                 
                 id='GB_dropdown',
-                options = self.GB_stats
+                options = self.GB_stats,
+                value = "medals_os"
             ),
            
         ], style={'width': '48%', 'display': 'inline-block'}),
 
         html.Div([
             dcc.Dropdown(
-                id='World_dropdown',
+                id='world-dropdown',
                 options = self.world_stats,
-                
+                value = "top_ten_medals"
 
             ),
           
