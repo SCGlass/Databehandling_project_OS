@@ -7,14 +7,17 @@ import dash_bootstrap_components as dbc
 from dash import html
 from layout import Layout
 from graphs import Graphs
+from dash_bootstrap_templates import load_figure_template
+
 
 
 app = dash.Dash(
     __name__,
-    external_stylesheets=[dbc.themes.MATERIA],
+    external_stylesheets=[dbc.themes.CERULEAN],
     meta_tags=[
         dict(name="viewport", content="width=device-width, initial-scale=1.0")],
 )
+load_figure_template('CERULEAN')
 
 app.layout = Layout().layout()
 
@@ -26,6 +29,8 @@ def update_left_graph(option):
         return Graphs().gb_years_medal()
     elif option == "age":
         return Graphs().gb_age()
+    elif option == "height_weight":
+        return Graphs().gb_height_weight()
 
 @app.callback(Output("graph-down", "figure"), Input("world-dropdown", "value"))
 def update_right_graph(option):

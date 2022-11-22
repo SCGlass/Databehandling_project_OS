@@ -21,6 +21,7 @@ plotly-express = "*"
 nbformat = "*"
 "plotly.express" = "*"
 lxml = "*"
+dash-bootstrap-templates = "*"
 
 [dev-packages]
 

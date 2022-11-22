@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "474c6f3e6c121dcbf703b4616cb2a63e520e017dcc3fa331cc01bc588bc9ca0a"
+            "sha256": "5bde4d860ddacf91df4ab166474e5f80aa321bf59173b8fa9f975472a711950d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -210,6 +210,14 @@
             ],
             "index": "pypi",
             "version": "==1.2.1"
+        },
+        "dash-bootstrap-templates": {
+            "hashes": [
+                "sha256:746a3e30a2fd963c00b07cbcc23204d27434f2e2793d73d11ffbc5cde0193610",
+                "sha256:f1fcda66d4860ac1747c220ca5fbd8f2d49c2ce4338f32809d75b666ae2a12b7"
+            ],
+            "index": "pypi",
+            "version": "==1.0.7"
         },
         "dash-core-components": {
             "hashes": [
@@ -881,7 +889,7 @@
             "index": "pypi",
             "version": "==5.11.0"
         },
-        "plotly.express": {
+        "plotly-express": {
             "hashes": [
                 "sha256:5f112922b0a6225dc7c010e3b86295a74449e3eac6cac8faa95175e99b7698ce",
                 "sha256:ff73a41ce02fb43d1d8e8fa131ef3e6589857349ca216b941b8f3f862bce0278"

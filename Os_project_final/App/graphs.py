@@ -24,7 +24,7 @@ class Graphs:
         medal_counts.sort_values(by="Gold", ascending=False).head(20)
 
         top_10 = medal_counts.sort_values(by="Gold", ascending=False).head(10)
-        return px.bar(top_10, barmode="group")
+        return px.bar(top_10, barmode="group", title="Top ranking countries medal count")
 
     def map_medals_Art_Competitions(self):
 
@@ -144,3 +144,20 @@ class Graphs:
             title="Ages of participating Athletes from Great Britain who competed in the previous Olympics")
 
         return fig
+
+    def gb_height_weight(self):
+        
+        data_folder = os.path.abspath("./Data")
+        data_athletes = os.path.join(data_folder, "athlete_events.csv")
+        df = pd.read_csv(data_athletes)
+
+        df_height_weight = df[df["Team"] == "Great Britain"]
+        df_height_weight = df_height_weight[["Sport", "Height","Weight"]]
+        df_height_weight = df_height_weight.dropna()
+        df_height_weight = df_height_weight.groupby(["Sport"]).mean().reset_index()
+        
+        fig = px.scatter(df_height_weight, x="Height", y="Weight", color="Sport")
+
+        return fig
+
+
