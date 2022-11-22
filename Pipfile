@@ -20,6 +20,7 @@ plotly = "*"
 plotly-express = "*"
 nbformat = "*"
 "plotly.express" = "*"
+lxml = "*"
 
 [dev-packages]
 
