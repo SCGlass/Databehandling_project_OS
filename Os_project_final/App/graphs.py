@@ -109,4 +109,29 @@ class Graphs:
         df_years["Total Medals"] = df_years.sum(axis=1, numeric_only= True)
         df_years = df_years[df_years.columns.reindex(['Bronze','Silver','Gold','Total Medals'])[0]]
         df_years.sort_values(by="Total Medals",ascending= False, inplace=True)
+        df_years = df_years.reset_index()
+
+        fig = px.bar(
+        df_years,
+        x="Games",
+        y="Total Medals",
+        title="Total medals per year ")
+ 
+        return fig
+
+    def gb_age(self):
         
+        data_folder = os.path.abspath("./Data")
+        data_athletes = os.path.join(data_folder, "athlete_events.csv")
+        df = pd.read_csv(data_athletes)   
+        
+        df_age = df[df["Team"] == "Great Britain"]
+        df_age = df_age.loc[df["Age"].notna(),["Age"]]
+        df_age = df_age.groupby(["Age"]).Age.count().reset_index(name="Total")
+        df_age['Age'] = df_age['Age'].astype('Int64')
+        
+        fig = px.histogram(df_age, x="Age", y="Total", nbins=84, labels={
+                   "sum of Total": "Total athletes", "Age": "Age of athlete"},
+                   title="Ages of participating Athletes from Great Britain who competed in the previous Olympics")
+
+        return fig

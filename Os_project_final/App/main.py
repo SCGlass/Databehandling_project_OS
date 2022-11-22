@@ -18,8 +18,16 @@ app = dash.Dash(
 
 app.layout = Layout().layout()
 
+@app.callback(Output("graph","figure"),Input("gb-dropdown", "value"))
+def update_left_graph(option):
+    if option == "medals":
+        return Graphs().top_ten_gb()
+    elif option == "medals_os":
+        return Graphs().gb_years_medal()
+    elif option == "age":
+        return Graphs().gb_age()
 
-@app.callback(Output("graph", "figure"), Input("world-dropdown", "value"))
+@app.callback(Output("graph-down", "figure"), Input("world-dropdown", "value"))
 def update_right_graph(option):
     if option == "top_ten_medals":
         return Graphs().top_10_medals()
@@ -29,14 +37,6 @@ def update_right_graph(option):
         return Graphs().map_medals_Ice_Hockey()
 
     
-@app.callback(Output("graph-down","figure"),Input("gb-dropdown", "value"))
-def update_left_graph(option):
-    if option == "medals":
-        return Graphs().top_ten_gb()
-    elif option == "medals_os":
-        return Graphs().map_medals_Art_Competitions()
-    elif option == "age":
-        return Graphs().map_medals_Ice_Hockey()
 
 
 
