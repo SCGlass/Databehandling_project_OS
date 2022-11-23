@@ -17,6 +17,9 @@ app = dash.Dash(
     meta_tags=[
         dict(name="viewport", content="width=device-width, initial-scale=1.0")],
 )
+
+server = app.server
+
 load_figure_template('CERULEAN')
 
 app.layout = Layout().layout()
@@ -46,4 +49,4 @@ def update_right_graph(option):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server()
