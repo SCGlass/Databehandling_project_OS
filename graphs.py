@@ -4,14 +4,18 @@ import os # used to help with path names for dataframe
 
 # creating class Graphs to use in main frame and visualize graphs. 
 class Graphs:
-    #TODO Håkan can commetn here on his function
     
     def top_10_medals(self):
         """Graph of top ten countries medal count""" 
         
+        # setting path to data, creating pandas dataframe of the csv-file
         data_folder = os.path.abspath("./Data") 
         data_athletes = os.path.join(data_folder, "athlete_events.csv")
         df = pd.read_csv(data_athletes)
+
+        # choosing rows that have a medal, creating series with each type of medal, 
+        # creating a dataframe of those series,
+        # sorting by most gold medals
         df_gold = df[df.Medal == "Gold"]
         gold_series = df_gold.groupby(
             "NOC").Medal.count().sort_values(ascending=False)
@@ -25,21 +29,26 @@ class Graphs:
             {"Gold": gold_series, "Silver": silver_series, "Bronze": bronze_series})
         medal_counts.sort_values(by="Gold", ascending=False).head(20)
 
+        # extracting the top 10 gold medal winners
         top_10 = medal_counts.sort_values(by="Gold", ascending=False).head(10)
         return px.bar(top_10, barmode="group", title="Top ranking countries medal count")
-
-    #TODO Håkan can comment on his function here
     
     def map_medals_Art_Competitions(self):
         """World visualization of total medals won in Art competitions"""
+
+        # setting path to data, creating pandas dataframe of the csv-file
         data_folder = os.path.abspath("./Data")
         data_athletes = os.path.join(data_folder, "athlete_events.csv")
         df = pd.read_csv(data_athletes)
 
+        # Choosing rows with the sport "Art Competetion"
+        # Choosing rows that won medal
         df1 = df[df["Sport"] == "Art Competitions"]
         df1 = df1[df1.Medal.notna()]
         df1 = df1.groupby("NOC").Medal.count().reset_index(name="Total")
 
+        # Adding information about the "IOC"-country code. The csv-file has a country code called "NOC"
+        # And the NOC and IOC doesnt always match. Since the Choropleth library uses IOC i need to do this conversion
         df_iso = pd.read_html("https://www.worlddata.info/countrycodes.php")[0]
         df_iso.set_index("IOC", inplace=True)
         df_iso = df_iso.reset_index()
@@ -47,6 +56,7 @@ class Graphs:
         df_iso = df_iso[["NOC", "ISO 3166-1 alpha3"]]
         df_merge = df1.merge(df_iso)
 
+        # Creating choropleth map with the converted values from NOC to IOC
         fig = px.choropleth(df_merge, locations="ISO 3166-1 alpha3", locationmode="ISO-3",
                             color="Total",
                             hover_name="NOC",
@@ -55,9 +65,11 @@ class Graphs:
 
         return fig
 
-    #TODO Håkan can comment here
+
     def map_medals_Ice_Hockey(self):
         """World graph showing the most medals won in Ice hockey"""
+
+        # See documentation of function above
         data_folder = os.path.abspath("./Data")
         data_athletes = os.path.join(data_folder, "athlete_events.csv")
         df = pd.read_csv(data_athletes)
