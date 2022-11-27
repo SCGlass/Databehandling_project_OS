@@ -40,7 +40,7 @@ class Layout:
                                 value="medals" # This will return the value to the callback to activate the output
                             ),
                             dcc.Graph(id='graph'), # This is the graph decorator which allows a graph to be shown
-                            ], style={'width': '50%', 'display': 'inline-block'}), # This sets the width and styling of the dropdown menu
+                            ], style={'width': '50%', 'display': 'inline-block'}), # This sets the width and styling of the tab menu
 
                     dcc.Tab(label='World Olympics', children=[ # The code is the same with the next tab, however the values and ids will be different
 
