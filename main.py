@@ -51,3 +51,4 @@ def update_right_graph(option):
 
 if __name__ == "__main__": # using __ name to return to main and to be able to run the app
     app.run_server()
+    
